@@ -23,3 +23,6 @@ PIN antes de que se pueda continuar con la transacción. Si el cliente no puede 
 el PIN después de tres intentos saldrá de la aplicación. 
 • El cajero automático tendrá un panel de operador con un interruptor que permitirá apagar o encender 
 el cajero.*/
+
+
+function Gisela_te_amo(<3) 
