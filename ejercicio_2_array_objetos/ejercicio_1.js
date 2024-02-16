@@ -25,4 +25,4 @@ el PIN después de tres intentos saldrá de la aplicación.
 el cajero.*/
 
 
-function Gisela_te_amo(<3) 
+function Gisela_te_amo(name) {};
