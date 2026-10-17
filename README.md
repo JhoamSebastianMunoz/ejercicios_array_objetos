@@ -1,6 +1,26 @@
+<div align="center">
+
 # Ejercicios de Arrays y Objetos
 
+*Colección de ejercicios prácticos en JavaScript para dominar arreglos y objetos*
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14-3c873a?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Sin dependencias](https://img.shields.io/badge/dependencias-ninguna-blue?style=flat-square)](#requisitos)
+[![GitHub](https://img.shields.io/badge/repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/JhoamSebastianMunoz/exercise-array-object)
+
+[Contenido](#contenido) • [Estructura](#estructura-del-proyecto) • [Cómo clonar](#cómo-clonar) • [Uso](#uso)
+
+</div>
+
 Colección de ejercicios prácticos en **JavaScript** para el manejo de arreglos (arrays) y objetos, organizados en dos grupos: una serie de 11 ejercicios de fundamentos sobre arrays y dos simulaciones aplicadas (un cajero automático y un sistema de reservas de hotel).
+
+## Características
+
+- **11 ejercicios de fundamentos** que recorren desde la creación de un array hasta el uso de `reduce`, `filter`, `find` y el operador spread.
+- **2 simulaciones aplicadas** que combinan arrays de objetos con lógica de negocio real.
+- **Sin dependencias ni instalación**: solo se necesita un navegador o Node.js para ejecutarlos.
+- **Código comentado** en español con el enunciado de cada ejercicio al inicio del archivo.
 
 ## Contenido
 
@@ -30,7 +50,7 @@ Dos simulaciones aplicadas con array de objetos:
 ## Estructura del proyecto
 
 ```
-ejercicios_array_objetos/
+exercise-array-object/
 ├── README.md
 ├── ejercicios_11_array/
 │   ├── ejer_1.js
@@ -50,9 +70,25 @@ ejercicios_array_objetos/
     └── ejercicio_2.js    # Sistema de reservas de hotel
 ```
 
+## Requisitos
+
+- Un navegador web moderno, o
+- [Node.js](https://nodejs.org) 14 o superior (para ejecutar los archivos por consola).
+
+No requiere instalación de dependencias ni proceso de compilación.
+
+## Cómo clonar
+
+Clona el repositorio y entra en la carpeta del proyecto:
+
+```bash
+git clone https://github.com/JhoamSebastianMunoz/exercise-array-object.git
+cd exercise-array-object
+```
+
 ## Uso
 
-No requiere instalación ni dependencias. Ejecuta cualquier archivo directamente con Node.js:
+Ejecuta cualquier archivo directamente con Node.js:
 
 ```powershell
 node ejercicios_11_array/ejer_1.js
@@ -63,6 +99,12 @@ Para los ejercicios que usan `alert` y `prompt` (como el cajero automático), ab
 ```powershell
 Start-Process "ejercicio_2_array_objetos\index.html"
 ```
+
+> [!NOTE]
+> El cajero automático (`ejercicio_1.js`) usa `alert` y `prompt`, por lo que debe abrirse desde un navegador a través de `index.html`. Los demás archivos funcionan directamente con Node.js.
+
+> [!TIP]
+> Cada archivo incluye el enunciado del ejercicio como comentario en la parte superior, útil para repasar la lógica implementada.
 
 ## Autor
 
